@@ -11,8 +11,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+import androidx.fragment.app.FragmentActivity;
+import androidx.leanback.app.BrowseSupportFragment;
 
-public class MainActivity extends Activity implements View.OnClickListener {
+public class MainActivity extends FragmentActivity implements View.OnClickListener {
 
 	public static String TAG = "AIS-RAOP-Main";
 
