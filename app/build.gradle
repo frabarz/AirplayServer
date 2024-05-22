@@ -5,8 +5,8 @@ android {
     defaultConfig {
         namespace "com.fang.myapplication"
         applicationId "com.fang.myapplication"
-        minSdk 30
-        targetSdk 30
+        minSdk 21
+        targetSdk 28
         ndkVersion "25.1.8937393"
         versionCode 1
         versionName "1.0"
@@ -39,7 +39,6 @@ android {
             jniLibs.srcDirs = ['libs']
         }
     }
-
 }
 
 dependencies {
